@@ -1,0 +1,25 @@
+{
+  "name": "backendchallenge",
+  "version": "1.0.0",
+  "description": "Backend for wedoweb-challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "dotest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "wedoweb-challenge-backend"
+  },
+  "keywords": [
+    "wedoweb"
+  ],
+  "author": "aamaya",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "md5": "^2.3.0",
+    "mysql": "^2.18.1",
+    "ws": "^7.4.2"
+  }
+}
