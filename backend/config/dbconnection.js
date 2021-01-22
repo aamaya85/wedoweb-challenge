@@ -1,4 +1,4 @@
-const host: '',
-	    user: '',
-  	  password: '',
-    	database: ''
+// const host: '',
+// 	    user: '',
+//   	  password: '',
+//     	database: ''
