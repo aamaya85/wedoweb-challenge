@@ -36,7 +36,6 @@ CREATE TABLE `domains` (
 
 LOCK TABLES `domains` WRITE;
 /*!40000 ALTER TABLE `domains` DISABLE KEYS */;
-INSERT INTO `domains` VALUES (50,'asdf','2021-01-22 12:22:03'),(51,'asdf','2021-01-22 12:22:04'),(52,'asdf','2021-01-22 12:22:05'),(53,'asdf','2021-01-22 12:22:06'),(54,'asdf','2021-01-22 12:22:06'),(55,'asdf','2021-01-22 12:22:07'),(56,'asdf','2021-01-22 12:22:07');
 /*!40000 ALTER TABLE `domains` ENABLE KEYS */;
 UNLOCK TABLES;
 
