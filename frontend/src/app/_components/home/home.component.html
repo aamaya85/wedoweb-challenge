@@ -1,0 +1,25 @@
+<h1>Welcome!</h1>
+	<div>
+		<p>Please enter a domain name</p>
+	</div>
+	<div class="input-group mb-3">
+	  <span class="input-group-text" id="basic-addon1">URL</span>
+	  <input #currentDomain type="text" class="form-control" placeholder="http://" aria-label="Username" aria-describedby="basic-addon1">
+		<button class="btn btn-outline-primary" type="button" (click)="visitDomain(currentDomain.value)" id="button-addon2">GO!</button>
+	</div>
+	<div>
+		<h3>You visited <b>{{ lastDomain }} </b> </h3>
+	</div>
+		
+<hr>
+
+<h3>Most visited domains:</h3>
+<ul>
+    <li *ngFor="let user of users">
+        {{user.username}} ({{user.firstName}} {{user.lastName}})
+        - <a (click)="deleteUser(user.id)" class="text-danger">Delete</a>
+    </li>
+</ul>
+<ul *ngFor="let d of domains">
+	<li>{{d.domain_name}}, VIEWS: <b>{{d.views}}</b></li>
+</ul>
