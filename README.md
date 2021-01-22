@@ -9,14 +9,14 @@ NodeJS: https://nodejs.org/en/
 Angular: npm install -g @angular/cli
 
 FRONTEND
-1. cd wedoweb-challenge/frontend
-2. npm i
-3. ng serve
+1. $ cd wedoweb-challenge/frontend
+2. $ npm i
+3. $ ng serve
     
 BACKEND:
 Before run server you need to create a mysql database then use wedoweb-challenge.sql to restore tables.
 
-1.  cd wedoweb-challenge/backend
-    complet db credentials on server.js
-    node server.js
+1.  $ cd wedoweb-challenge/backend
+2.  complete db credentials on server.js
+3.  $ node server.js
 
