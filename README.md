@@ -17,6 +17,7 @@ BACKEND:
 Before run server you need to create a mysql database then use wedoweb-challenge.sql to restore tables.
 
 1.  $ cd wedoweb-challenge/backend
-2.  complete db credentials on server.js
-3.  $ node server.js
+2.  $ npm i
+3.  complete db credentials on server.js
+4.  $ node server.js
 
