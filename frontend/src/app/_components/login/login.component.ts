@@ -49,7 +49,7 @@ export class LoginComponent implements OnInit {
     this._authenticationService.login(this.f.username.value, this.f.password.value)
       .subscribe(
         data => {
-        	if (data.records > 0 ) {
+        	if (data['records'] > 0 ) {
         		this.router.navigate(['home']);
         	}
         	this.submitted = false;
