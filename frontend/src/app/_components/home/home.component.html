@@ -14,12 +14,6 @@
 <hr>
 
 <h3>Most visited domains:</h3>
-<ul>
-    <li *ngFor="let user of users">
-        {{user.username}} ({{user.firstName}} {{user.lastName}})
-        - <a (click)="deleteUser(user.id)" class="text-danger">Delete</a>
-    </li>
-</ul>
 <ul *ngFor="let d of domains">
 	<li>{{d.domain_name}}, VIEWS: <b>{{d.views}}</b></li>
 </ul>
